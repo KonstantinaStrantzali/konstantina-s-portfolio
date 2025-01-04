@@ -266,6 +266,7 @@ pre {
   padding: 40px 0 0 0;
 }
 
+
 .navbar-brand {
   padding-top: 0;
   padding-bottom: 0;
@@ -1456,7 +1457,7 @@ nav.pagination-outer {
   padding: 56.25% 0 0 0;
 }
 
-.videoWrapper iframe {
+.videoWrapper video {
   position: absolute;
   top: 0;
   left: 0;
@@ -1490,9 +1491,10 @@ nav.pagination-outer {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 600px;
-  width: 100%;
-}
+  max-width: 100%;
+  height: auto;
+  }
+
 
 /*=================================================================*/
 /*                      SLICK SETTINGS
@@ -1735,6 +1737,7 @@ nav.pagination-outer {
     padding-left: 0;
     padding-right: 0;
   }
+  
 
   .comments .single-comment .thumb {
     height: 50px;
@@ -1751,6 +1754,15 @@ nav.pagination-outer {
 
   .portfolio-single .navigation a i {
     font-size: 20px;
+  }
+  
+  @media (max-width: 575px) {
+    .grid-item {
+      
+      margin-left: 15%;
+    }
+    
+    
   }
 }
 
