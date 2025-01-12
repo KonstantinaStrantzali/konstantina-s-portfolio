@@ -590,6 +590,7 @@ pre {
   -moz-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
 }
+
 @keyframes flash {
   from, 50%, to {
     opacity: 1;
@@ -1759,10 +1760,14 @@ nav.pagination-outer {
   @media (max-width: 575px) {
     .grid-item {
       
-      margin-left: 15%;
+      margin-left: 9%;
+    } 
+  }
+
+  @media (max-width: 576px) {
+    #preloader .loading-area h3 {
+      font-size: 30px; /* Smaller font size for extra small devices */
     }
-    
-    
   }
 }
 
