@@ -66,14 +66,15 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: "Outfit", sans-serif;
+  color: #313030;
+  background-color: #fff;
+  font-family: "Roboto", sans-serif;
   font-size: 15px;
   font-weight: 400;
-  color: rgba(32, 33, 36, 0.5);
   line-height: 170%;
   -ms-scroll-chaining: none;
       overscroll-behavior: none;
-  background-color: rgb(253, 253, 253);
+ 
 }
 @media screen and (max-width: 768px) {
   html,
@@ -253,10 +254,10 @@ a {
 }
 
 .mil-light-soft {
-  color: rgba(255, 255, 255, 0.5);
+  color: #BFDCFF;
 }
 .mil-light-soft a {
-  color: rgba(255, 255, 255, 0.5) !important;
+  color: #BFDCFF !important;
 }
 
 .mil-dark-soft {
@@ -2193,7 +2194,7 @@ story timeline
           align-items: center;
 }
 .mil-timeline ul li .mil-item-head .mil-text-sm {
-  background-color: rgba(32, 33, 36, 0.1);
+  background-color: #BFDCFF;
   padding: 0 15px;
   border-radius: 15px;
 }

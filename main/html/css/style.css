@@ -243,6 +243,11 @@ pre {
   margin-bottom: 8rem !important;
 }
 
+.event-container{
+  background-color: #d3d3d3;
+  color:#000;
+}
+
 /* === List === */
 .content ul {
   list-style: none;
@@ -254,9 +259,9 @@ pre {
 }
 .content ul li:before {
   content: '\f284';
-  color: #FF8CAA;
+  color: #2c552b;
   font-family: 'Ionicons';
-  padding-right: 40px;
+  padding-right: 20px;
 }
 
 /*=================================================================*/
