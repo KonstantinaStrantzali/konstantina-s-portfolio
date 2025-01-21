@@ -393,7 +393,7 @@ pre {
 }
 .overlay-menu:after {
   content: '';
-  background: #111;
+  background: #000;
   bottom: -100%;
   height: 100%;
   position: absolute;
